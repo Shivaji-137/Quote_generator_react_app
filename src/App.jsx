@@ -3,7 +3,9 @@ import { Quotes } from "/public/quotes.js"
 import "./App.css";
 
 export default function App() {
+   const url = "https://zenquotes.io/api/random"
    const [quotes, setQuotes] = useState(Quotes);
+   
    const [currentQuote, setCurrentQuote] = useState(null);
 
 
